@@ -165,6 +165,14 @@ fun SearchScreen(
     }
 }
 
+class Toast(
+    onClick: () -> Unit,
+    modifier: Modifier,
+    content: (RowScope) -> Un   it
+) {
+
+}
+
 @Composable
 fun ResultsScreen(onBookSelected: (String) -> Unit) {
     Box(
